@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.example.davher.diferentesformasdeeventos.MiButton
+        android:id="@+id/cmdUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uno" />
+
+    <Button
+        android:id="@+id/cmdDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dos" android:onClick="cmdDos_click"/>
+
+    <Button
+        android:id="@+id/cmdTres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tres" />
+
+</LinearLayout>
