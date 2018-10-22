@@ -1,6 +1,8 @@
 package com.example.davher.adaptadortitulares;
 
-public class Titular {
+import java.io.Serializable;
+
+public class Titular implements Serializable {
     private String titulo;
     private String subtitulo;
     private int imagen;
