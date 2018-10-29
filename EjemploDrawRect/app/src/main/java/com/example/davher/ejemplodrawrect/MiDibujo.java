@@ -12,18 +12,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Toast;
 
-public class DrawRect extends AppCompatActivity {
-    View vista;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //setContentView(new MiDibujo(this));
-        setContentView(R.layout.activity_draw_rect);
-        vista = (View)findViewById(R.id.drawing_area);
-    }
-
-    /*class MiDibujo extends View {
+public class MiDibujo extends View {
         private ShapeDrawable miDrawable;
         public MiDibujo(Context c) {
             super(c);
@@ -37,7 +26,6 @@ public class DrawRect extends AppCompatActivity {
             miPincel.setColor(Color.RED);
             miPincel.setStyle(Paint.Style.STROKE);
             lienzo.drawCircle(720, 1056, 600, miPincel); //x y lo sacamos de ancho y alto dividido entre 2
-            Toast.makeText(getApplicationContext(), "más dibujos", Toast.LENGTH_SHORT).show();
 
             int ancho = getWidth();
             int alto = getHeight();
@@ -60,8 +48,5 @@ public class DrawRect extends AppCompatActivity {
                     getTop()+(getBottom()-getTop())/3,
                     getRight()-(getRight()-getLeft())/3,
                     getBottom()-(getBottom()-getTop())/3,paint);
-        }
-    }*/
-
-
+    }
 }
