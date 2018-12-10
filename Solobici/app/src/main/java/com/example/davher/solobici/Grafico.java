@@ -124,4 +124,12 @@ public class Grafico {
     public double getIncY() {
         return incY;
     }
+
+    public double getPosX() {
+        return posX;
+    }
+
+    public double getPosY() {
+        return posY;
+    }
 }
